@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+    <title>Alumni Connection Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #whole {
+            background-color: #bffad0;
+        }
+
+        #header {
+            padding: 10px;
+        }
+
+        #header .left {
+            float: left;
+        }
+
+        #header .right {
+            float: right;
+        }
+
+        #content {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #content h2 {
+            font-size: 24px;
+        }
+
+        #content p {
+            font-size: 14px;
+        }
+
+        #content img {
+            margin-top: 20px;
+        }
+
+        #search-form {
+            margin-top: 20px;
+        }
+
+        #search-form input[type="text"],
+        #search-form input[type="button"] {
+            padding: 5px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+
+        #why-connect {
+            margin-top: 20px;
+            text-align: center;
+            background-color: rgba(191, 250, 208, 0.17);
+        }
+
+        .box {
+            width: 100px;
+            height: 125px;
+            background-color: #bffad0;
+            margin: 7px;
+            display: inline-block;
+        }
+
+        #combined-box {
+            width: 360px;
+            height: 120px;
+            background-color: #bffad0;
+            margin: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #why-connect p {
+            margin: 0 auto;
+            width: 70%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table.empty-table {      
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        table.main-table th {
+            border: 1px solid #ccc;
+            padding: 8px;
+            font-size: 13px;
+        }
+        table.empty-table td { 
+            border: 1px solid #ec1010;     
+        border-collapse: separate;
+        border-spacing: 4px;  
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="whole">
+        <div id="header">
+            <div class="left">
+                ask@alumni.in
+            </div>
+            <div class="right">
+                Sign | SignUp
+            </div>
+        </div>
+        <div id="content">
+            <h2>Alumni Connection Portal</h2>
+            <p>Be Connected forever</p>
+            <img src="https://www.marjon.ac.uk/media/2018-website-images-gdpr/alumni/alumni-header-1.jpg" alt="Alumni Image" width="360" height="250">
+            <h3>Search The Alumni</h3>
+            
+            <form id="search-form">
+                <input type="text" placeholder="Course Name">
+                <input type="text" placeholder="Year">
+                <input type="button" value="Search">
+            </form>
+        </div>
+    </div>
+
+
+    <table class="main-table">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Course Name</th>
+                <th>LinkedIn Profile URL</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="empty-table">
+        <tbody>
+            <tr>
+                <td></td>
+                <td ></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+
+    <div id="why-connect">
+        <h2>Why Connect?</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div id="combined-box"></div>
+    </div>
+</body>
+</html>
